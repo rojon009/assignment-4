@@ -172,9 +172,13 @@ a.active {
   right: 20px;
 }
 
-.close-btn:hover {
+.close-btn a{
+    color: #bb2525;
+}
+
+.close-btn a:hover {
   cursor: pointer;
-  color: black;
+  color: #ff0000;
 }
 
 .close-btn .icon {
